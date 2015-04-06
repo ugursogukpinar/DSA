@@ -8,10 +8,10 @@
 
 	Bu sayılar bulunurken,
 		
-	1- 2-N arasındaki tüm sayılar bir diziye alınır. ( 1 'in asal olmadığını biliyoruz. )
-	2- 2-Karekök N 'e kadar olan sayılar ele alınır.
+	1- 1-N arasındaki tüm sayılar bir diziye alınır. ( 1 'in asal olmadığını biliyoruz. )
+	2- 1-Karekök N 'e kadar olan sayılar ele alınır.
 	3- Ele alınan tüm sayıların kendi katları, 1-N dizisinden silinir.
-	4- 2-N dizisinde kalan tüm sayılar asal olmuş olur.
+	4- 1-N dizisinde kalan tüm sayılar asal olmuş olur.
 	
 */
 

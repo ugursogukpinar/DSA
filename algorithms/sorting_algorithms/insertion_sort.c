@@ -45,7 +45,7 @@ void sort(int *list, int length)
 
 	/*
 		Insertion sort, her elemanı kendinden önceki elemanlarla karşılaştırır.
-		Kendinden büyük bir eleman görene kadar , elemanı dizinin soluna doğru kaydırır. (Küçükten büyüğe sıralama için)
+		Kendinden büyük bir eleman gördüğü sürece , elemanı dizinin soluna doğru kaydırır. (Küçükten büyüğe sıralama için)
 		
 		Her seferinde önceki elemanlarla karşılaştırma yapacağımız için işleme ikinci elemandan başlıyoruz.
 	*/

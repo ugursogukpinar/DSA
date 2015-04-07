@@ -73,7 +73,7 @@ int main()
 				if(tmpInt != -1)
 					printf("Removed value : %d\n", tmpInt);
 				else
-					printf("There is no data at stack!\n");
+					printf("There is no data at queue!\n");
 				break;
 			case 3:
 				write(*q);

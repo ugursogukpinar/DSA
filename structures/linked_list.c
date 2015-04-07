@@ -54,17 +54,17 @@ int main()
 				printf("Bye.\n");
 				exit(EXIT_SUCCESS);
 			case 1:
-				printf("Eklenecek sayı: ");
+				printf("Element : ");
 				scanf("%d", &tmpInt);
 				rootElement = insert(rootElement, tmpInt);
 				break;
 			case 2:
-				printf("Aranacak sayıyı giriniz: ");
+				printf("Search Query : ");
 				scanf("%d", &tmpInt);
 				search(rootElement, tmpInt);
 				break;
 			case 3:
-				printf("Silinecek sayı : ");
+				printf("Element: ");
 				scanf("%d", &tmpInt);
 				rootElement = delete(rootElement, tmpInt);
 				break;
@@ -89,7 +89,7 @@ NODE * readAllElements(NODE *rootElement)
 
 	int lengthOfList, tmp;
 
-	printf("Lütfen dizinin eleman sayısını giriniz:");
+	printf("Length of list :");
 	scanf("%d", &lengthOfList);
 
 	// Başlangıçta eleman girmek istemeyebilir.
@@ -99,7 +99,7 @@ NODE * readAllElements(NODE *rootElement)
 	for(register int i = 0; i<lengthOfList; i++)
 	{
 
-		printf("Lütfen %d. elemanı giriniz: ", (i + 1));
+		printf("%d. element: ", (i + 1));
 		scanf("%d", &tmp);
 
 		rootElement = insert(rootElement, tmp);
@@ -189,12 +189,12 @@ NODE* delete(NODE *rootElement, int value)
 
 			} else
 			{
-				printf("Eleman bulunamadı!\n");
+				printf("Not Found!!\n");
 			}
 		}
 	} else
 	{
-		printf("Eleman bulunamadı!\n");
+		printf("Not found!!\n");
 	}
 	
 
@@ -212,10 +212,10 @@ void search(NODE *rootElement, int value)
 	
 	if(rootElement)
 	{
-		printf("Eleman bulundu!\n");
+		printf("Found!!!!\n");
 	} else
 	{
-		printf("Eleman bulunamadı!\n");
+		printf("Not found!!!\n");
 	}
 }
 

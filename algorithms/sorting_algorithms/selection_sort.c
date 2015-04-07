@@ -30,10 +30,10 @@ int main()
 	}
 
 
-	printf("\n\t\tUnsorted List\t\t\n");
+	printf("\n\t\tSırasız Liste\t\t\n");
 	writeList(list, length);
 	sort(list, length);
-	printf("\n\t\tSorted List\t\t\n");
+	printf("\n\t\tSıralı List\t\t\n");
 	writeList(list, length);
 
 	return 0;

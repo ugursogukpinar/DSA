@@ -47,7 +47,7 @@ int main()
 		upHeap(list, i);
 	}
 	
-	printf("\n\tUnsorted list :\n");
+	printf("\n\t Sırasız list :\n");
 	write(list, length);
 
 
@@ -64,7 +64,7 @@ int main()
 
 		Bu işlemler dizinin tüm elemanları doğru sıraya yerleştirilene kadar devam eder. 
 	*/
-	printf("\n\tSorted list :\n");
+	printf("\n\t Sıralı list :\n");
 	sort(list, length);
 	write(list, length);
 

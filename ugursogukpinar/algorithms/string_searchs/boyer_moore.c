@@ -18,10 +18,11 @@
 #define CHAR_SIZE 255
 #define MAX_LENGTH 255
 
-#define max(x,y) ((x) < (y) ? (x) : (y))
+#define max(X,Y) ((X) > (Y) ? (X) : (Y))
 
 
 int boyer_moore(char *, char *, int *);
+int max(int,int);
 
 int main()
 {
@@ -50,10 +51,16 @@ int main()
 
 
 	// Eğer bir harf birden fazla sayıda bulunuyorsa en sağdaki indis tutulur.
-	for(register int i=0; i < strlen(str) - 1; i++){
+	for(register int i=0; i < strlen(str); i++){
 		adr = str[i] - '\0';
 		indexesFromRight[adr] = i;
 	}	
+
+	for(register int i =0; i < strlen(str) - 1; i++)
+	{
+		adr = str[i] - '\0';
+	}
+
 
 
 	index = boyer_moore(text, str, indexesFromRight);
@@ -71,15 +78,15 @@ int main()
 
 int boyer_moore(char *text, char *str, int *indexesFromRight)
 {
-	int str_length = strlen(str);
-	int text_length = strlen(text);
+	int str_length = strlen(str) - 1;
+	int text_length = strlen(text) - 1;
 
 	int skip;
 	int found = 0;
 	register int i=0, j;
 
 	// Kelimenin uzunluğundan daha az sayıda karakter kalana kadar aramaya devam ediyoruz.
-	while(i < text_length - str_length && found != 1)
+	while(i <= text_length - str_length && found != 1)
 	{
 
 		// Kelimeyi sondan itibaren karşılaştıracağız.
@@ -99,7 +106,8 @@ int boyer_moore(char *text, char *str, int *indexesFromRight)
 		{
 
 			// Bu durumda aramaya ne kadar ileriden başlayacağımızı hesaplamamız gerekir.
-			skip = max(1, j - indexesFromRight[text[i + j] - '\0']);
+			skip = max(j - indexesFromRight[text[i + j] - '\0'] , 1);
+				printf("%d\n", skip);
 			i += skip;
 		}
 	}
@@ -112,23 +120,3 @@ int boyer_moore(char *text, char *str, int *indexesFromRight)
 
 	return -1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

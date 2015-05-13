@@ -55,24 +55,24 @@ int brute_force(char *text, char *str)
 
 	register int i=0, j;
 	int found = 0;
-	int text_length = strlen(text);
-	int str_length = strlen(str);
+	int text_length = strlen(text) - 1;
+	int str_length = strlen(str) - 1;
 
 	// Aranılan kelimedeki harf sayısı kadar harf kalmadığında işlemi sonlandırıyoruz.
 
 
-	while(i < text_length - str_length - 1 && found != 1)
+	while(i <= text_length - str_length && found != 1)
 	{
 
 		j=0;
 
-		while(j < str_length - 1 && text[i + j] == str[j])
+		while(j < str_length && text[i + j] == str[j])
 		{
 			j++;
 		}
 
 		// Aranılan kelimenin uzunluğu kadar ilerleyebilmişsek , bütün harfler uyuşma göstermiş demektir.
-		if(j == str_length - 1)
+		if(j == str_length)
 		{
 			found = 1;
 		} else

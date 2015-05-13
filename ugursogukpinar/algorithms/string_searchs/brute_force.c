@@ -66,7 +66,6 @@ int brute_force(char *text, char *str)
 
 		j=0;
 
-		// strlen fonksiyonu '\0' karakterini de sayar. Bu nedenle aramalara o karakteri dahil etmeyeceğiz.
 		while(j < str_length - 1 && text[i + j] == str[j])
 		{
 			j++;

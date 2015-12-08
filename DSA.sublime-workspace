@@ -1,0 +1,440 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ed",
+				"ed_matrix"
+			],
+			[
+				"word",
+				"word_2_length"
+			],
+			[
+				"word_",
+				"word_1_length"
+			],
+			[
+				"word_2",
+				"word_2_length"
+			],
+			[
+				"EDST",
+				"ED_STRUCT"
+			],
+			[
+				"word2",
+				"word_2_length"
+			],
+			[
+				"wor",
+				"word_1_length"
+			],
+			[
+				"word_1",
+				"word_1_length"
+			],
+			[
+				"cell",
+				"cell_obj_type"
+			],
+			[
+				"cell_b",
+				"cell_obj_type"
+			],
+			[
+				"row",
+				"row_idx"
+			],
+			[
+				"xls",
+				"xl_sheet"
+			],
+			[
+				"_",
+				"__FILE_NAME__"
+			],
+			[
+				"array_walk",
+				"array_walk"
+			],
+			[
+				"exc",
+				"exc_count"
+			],
+			[
+				"thread",
+				"threads"
+			],
+			[
+				"star",
+				"start_time"
+			],
+			[
+				"sta",
+				"start_time"
+			],
+			[
+				"execu",
+				"execute-count"
+			],
+			[
+				"EXC",
+				"_EXC_COUNT"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"base",
+				"base64_encode"
+			],
+			[
+				"base_e",
+				"base64_encode"
+			],
+			[
+				"base64_",
+				"base64_encode"
+			],
+			[
+				"base_",
+				"base64_decode"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "Toggle S",
+		"selected_items":
+		[
+			[
+				"Toggle S",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Toggle",
+				"View: Toggle Side Bar"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"toggle side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"togl",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ugursogukpinar/Lessons/AlgoritmaAnalizi/DSA",
+		"/Users/ugursogukpinar/Lessons/AlgoritmaAnalizi/DSA/ugursogukpinar",
+		"/Users/ugursogukpinar/Lessons/AlgoritmaAnalizi/DSA/ugursogukpinar/algorithms"
+	],
+	"file_history":
+	[
+		"/Users/ugursogukpinar/Lessons/AlgoritmaAnalizi/DSA/ugursogukpinar/algorithms/find_edit_distance.c",
+		"/Users/ugursogukpinar/Desktop/test.c",
+		"/Users/ugursogukpinar/Lessons/AlgoritmaAnalizi/DSA/.gitignore",
+		"/Users/ugursogukpinar/Lessons/ComputerProject/Parser/logs.json",
+		"/Users/ugursogukpinar/Lessons/ComputerProject/Parser/logs.arff",
+		"/Users/ugursogukpinar/Lessons/ComputerProject/Parser/logs_01/ufw-warm-activity-3.makine.log",
+		"/Users/ugursogukpinar/Lessons/ComputerProject/Parser/logs_02/iptraf-logs/iptraf.log",
+		"/Users/ugursogukpinar/Lessons/ComputerProject/Parser/logs_01/ufw-portscan.log",
+		"/Users/ugursogukpinar/Lessons/ComputerProject/Parser/logs_01/ufw-too-many-drop-action.log",
+		"/Users/ugursogukpinar/Lessons/ComputerProject/Parser/logs_01/ufw-internal-suspicious-activity.log",
+		"/Users/ugursogukpinar/www/BeHero/beHero-Web/app/vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Text.php",
+		"/Users/ugursogukpinar/ComputerProject/parsed_logs.json",
+		"/Users/ugursogukpinar/www/slimtest/#BeHero Db#",
+		"/Users/ugursogukpinar/www/slimtest/untitled",
+		"/Users/ugursogukpinar/www/slimtest/public/index.php",
+		"/Users/ugursogukpinar/www/slimtest/model_loader.php",
+		"/Users/ugursogukpinar/www/slimtest/app/models/User.php",
+		"/Users/ugursogukpinar/Desktop/parser.py",
+		"/Users/ugursogukpinar/Desktop/test.json",
+		"/Users/ugursogukpinar/templates/themeforest-9059661-xenon-bootstrap-admin-theme-with-angularjs/xenon-files/html/extra-members-add.html",
+		"/Users/ugursogukpinar/www/stoysv2/application/configs/application.ini",
+		"/Users/ugursogukpinar/www/laravel/app/Providers/RouteServiceProvider.php",
+		"/Users/ugursogukpinar/www/laravel/app/Http/Middleware/Authenticate.php",
+		"/Users/ugursogukpinar/www/laravel/app/Http/routes.php",
+		"/Users/ugursogukpinar/www/laravel/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php",
+		"/Users/ugursogukpinar/www/laravel/app/Http/Controllers/Auth/AuthController.php",
+		"/Users/ugursogukpinar/Downloads/behero/aws/backend-setup.sh",
+		"/Users/ugursogukpinar/Downloads/behero/aws/create-aws-platform.sh",
+		"/Users/ugursogukpinar/Downloads/behero/aws/launch-script.sh",
+		"/Users/ugursogukpinar/Downloads/behero/aws/termination-script.sh",
+		"/Users/ugursogukpinar/templates/themeforest-9059661-xenon-bootstrap-admin-theme-with-angularjs/xenon-files/html/dashboard-2.html",
+		"/Users/ugursogukpinar/Desktop/test.py",
+		"/Users/ugursogukpinar/templates/themeforest-9059661-xenon-bootstrap-admin-theme-with-angularjs/xenon-files/html/blank-sidebar.html",
+		"/Users/ugursogukpinar/www/test.php",
+		"/Users/ugursogukpinar/www/stoysv2/application/controllers/EntegrationController.php",
+		"/Users/ugursogukpinar/templates/themeforest-4611337-social-premium-responsive-admin-template/demo/admin/ui_files_uploaders.html",
+		"/Users/ugursogukpinar/Desktop/test.txt",
+		"/Users/ugursogukpinar/templates/themeforest-4611337-social-premium-responsive-admin-template/demo/admin/calendar.html",
+		"/Users/ugursogukpinar/www/stoys/application/configs/application.ini",
+		"/Users/ugursogukpinar/www/acadimu/application/configs/application.ini",
+		"/Users/ugursogukpinar/Desktop/index.html",
+		"/Users/ugursogukpinar/Desktop/main.c",
+		"/Users/ugursogukpinar/templates/themeforest-9059661-xenon-bootstrap-admin-theme-with-angularjs/xenon-files/html/ui-widgets.html",
+		"/Users/ugursogukpinar/Desktop/22369007728.xls",
+		"/Users/ugursogukpinar/Desktop/recoveredfiles/composer.json",
+		"/Users/ugursogukpinar/Desktop/kaybolan_dosyalar",
+		"/Users/ugursogukpinar/Desktop/multithread.py",
+		"/Users/ugursogukpinar/templates/themeforest-9059661-xenon-bootstrap-admin-theme-with-angularjs/xenon-files/html/extra-notes.html",
+		"/Users/ugursogukpinar/templates/themeforest-9059661-xenon-bootstrap-admin-theme-with-angularjs/xenon-files/html/assets/js/xenon-notes.js",
+		"/Users/ugursogukpinar/www/thread.php",
+		"/Users/ugursogukpinar/www/threadtest/index.php",
+		"/Users/ugursogukpinar/Desktop/seda/Ugur.py",
+		"/Users/ugursogukpinar/Desktop/seda/kmeans.py",
+		"/Users/ugursogukpinar/Desktop/seda/__init__.py",
+		"/Users/ugursogukpinar/templates/themeforest-9059661-xenon-bootstrap-admin-theme-with-angularjs/xenon-files/html/extra-calendar.html",
+		"/Users/ugursogukpinar/templates/themeforest-9059661-xenon-bootstrap-admin-theme-with-angularjs/xenon-files/html/forms-native.html",
+		"/Users/ugursogukpinar/Desktop/project-1/Project.py",
+		"/Users/ugursogukpinar/Desktop/project-1/test.py",
+		"/Users/ugursogukpinar/Desktop/project-1/__init__.py",
+		"/Users/ugursogukpinar/Desktop/cfg/autoexec.cfg",
+		"/Users/ugursogukpinar/Desktop/test/main.c",
+		"/Users/ugursogukpinar/Desktop/test/test.cpp",
+		"/Users/ugursogukpinar/Desktop/test/makefile",
+		"/Users/ugursogukpinar/Desktop/test/test.c",
+		"/Users/ugursogukpinar/Desktop/test/headers/test.h",
+		"/Users/ugursogukpinar/Desktop/stoysxmls/bahçelievler ilkokul.xml",
+		"/Users/ugursogukpinar/www/deneme.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"i",
+			"word_1",
+			"i",
+			"word_1",
+			"printf(\"Please enter first word: \");\n	word_1 = read_word(word_1);\n\n",
+			"referer",
+			"referrerId",
+			"_with",
+			"_without",
+			"	'",
+			"]",
+			"[",
+			"cell_obj:",
+			"Column: [3]",
+			"  ]",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			" ]",
+			"       ]",
+			"       ",
+			"DEFAULTS",
+			"script",
+			"App\\User",
+			"use App\\User;",
+			"/static",
+			"]",
+			"[",
+			"]",
+			"[",
+			",",
+			" ",
+			"	",
+			"<form id=\"dropzone\" action=\"https://posttestserver.com/post.php?dir=cesarlab\" method=\"post\" enctype=\"multipart/form-data\" class=\"dropzone\">\n                    <div class=\"fallback\">\n                      <input name=\"submitted\" type=\"file\" multiple=\"\">\n                    </div>\n                  </form>",
+			"Dropzone",
+			"#dropzone",
+			"href=\"//",
+			"src=\"//",
+			"//",
+			"\n",
+			"content.url  = http://stoys.v1.loc/",
+			"content.url",
+			"content.url  = http://stoys.localhost:10088/",
+			"<div class=\"col-md-6\">\n				<div class=\"input-group\">\n			      <span class=\"input-group-addon\">\n			        <label>Adı</label>\n			      </span>\n			      <input type=\"text\" class=\"form-control\" aria-label=\"...\">\n			    </div><!-- /input-group -->\n			</div>",
+			"dangling blob ",
+			";\n",
+			"']\n",
+			"1",
+			"construct_file",
+			"get_labels",
+			"kmeans",
+			"save",
+			"noktalar",
+			"forms",
+			"select",
+			"radio",
+			"calendar",
+			"\n",
+			">\n",
+			"25192A066DA1A39F",
+			"86CF645928ECEAC2",
+			"60ED9CFC6E96B869",
+			"\n",
+			"sanli",
+			":",
+			"\",\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "DSA.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"serviceprovider",
+				"vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php"
+			],
+			[
+				"routes.php",
+				"app/Http/routes.php"
+			],
+			[
+				"routeservice",
+				"app/Providers/RouteServiceProvider.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 302.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
